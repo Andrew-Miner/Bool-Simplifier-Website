@@ -1,0 +1,95 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.accordion-button {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #f2f2f2 !important;
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-collapse {
+    background-color: #f2f2f2;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.table-header-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.card {
+    /*background-color: #343a40;
+    box-shadow: 0 0 3pt 2pt black;*/
+    border: 1px solid #343a40;
+    border-radius: 4px;
+}
+.card-body {
+    background-color: #fff;
+}
+
+.bg-primary {
+    background-color: #35a7ff !important;
+}
+
+.bg-danger {
+    background-color: #e84855 !important;
+}
+
+.success-cell {
+    background-color: #d0f1c3 !important;
+}
+
+.scroll {
+    overflow-x: auto;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.btn-group-vertical.special {
+    display: flex;
+}
+
+.special .btn {
+    flex: 1;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
