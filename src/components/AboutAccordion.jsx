@@ -17,7 +17,7 @@ export default function AboutAccordion(props) {
     };
 
     return (
-        <Accordion flush>
+        <Accordion defaultActiveKey="0" flush>
             <Accordion.Item eventKey="0">
                 <Accordion.Header>
                     <p>
@@ -49,7 +49,7 @@ export default function AboutAccordion(props) {
                                         <b> Earley Parser</b> is used to parse expressions
                                         given by the user. This project and the Earley
                                         Parser were written by <b>Andrew Miner</b>.{" "}
-                                        <a href="https://github.com/Andrew-Miner/QuineMcCluskeySolver">
+                                        <a href="https://github.com/Andrew-Miner/Bool-Simplifier-Website">
                                             Check out the GitHub!
                                         </a>
                                     </p>
