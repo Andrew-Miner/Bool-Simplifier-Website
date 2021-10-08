@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Bool-Simplifier-Website/static/css/main.63649495.chunk.css",
-    "main.js": "/Bool-Simplifier-Website/static/js/main.e5fb860d.chunk.js",
-    "main.js.map": "/Bool-Simplifier-Website/static/js/main.e5fb860d.chunk.js.map",
+    "main.js": "/Bool-Simplifier-Website/static/js/main.763c221e.chunk.js",
+    "main.js.map": "/Bool-Simplifier-Website/static/js/main.763c221e.chunk.js.map",
     "runtime-main.js": "/Bool-Simplifier-Website/static/js/runtime-main.bf198b92.js",
     "runtime-main.js.map": "/Bool-Simplifier-Website/static/js/runtime-main.bf198b92.js.map",
     "static/css/2.4be38407.chunk.css": "/Bool-Simplifier-Website/static/css/2.4be38407.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.c4ba9d0d.chunk.js",
     "static/css/main.63649495.chunk.css",
-    "static/js/main.e5fb860d.chunk.js"
+    "static/js/main.763c221e.chunk.js"
   ]
 }
