@@ -3,34 +3,6 @@ import Recognizer from "../Earley Parser/EarleyRecognizer";
 import Parser, { ParseNode } from "../Earley Parser/EarleyParser";
 import BitSet from "bitset";
 import { bnfGrammar, bnfActions, interpretBNF } from "../Earley Parser/BNFInterpreter";
-//import BoolExpression from "./BoolExpression";
-
-/*export default function boolMain(expStr) {
-    try {
-        let exp = BoolExpression.ExpressionInstance(expStr, true);
-
-        console.log("Expression: ", exp.toString());
-        console.log("Min Terms: ", exp.getMinTerms());
-        console.log("Var Count: ", exp.getVarCount());
-        console.log("Prime Implicants: ", exp.getPrimeImplicants());
-        console.log("Petrick SOP: ", exp.getPetrickSOP());
-        // Print Prime Implicants
-        for (const implicant of exp.getPrimeImpStrings()) {
-            console.log(implicant);
-        }
-
-        let petrickSOP = exp.getSOPStrings();
-        for (let i = 0; i < petrickSOP.length; i++) {
-            console.log("Solution ", i + 1, ": ", petrickSOP[i]);
-        }
-
-        let test = exp.getQMLog();
-        console.log("QM Log: ", test);
-        console.log("PM Log: ", exp.getPMLog());
-    } catch (error) {
-        console.log(error);
-    }
-}*/
 
 export function buildBoolGrammar() {
     try {

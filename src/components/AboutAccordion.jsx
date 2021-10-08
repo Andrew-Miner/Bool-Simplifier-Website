@@ -45,7 +45,7 @@ export default function AboutAccordion(props) {
                                         "don't care" terms. Both
                                         <b> Quine McCluskey's Algorithm</b> and
                                         <b> Petrick's Method</b> are utilized to reduce an
-                                        expression to it's minimum sum-of-products. An
+                                        expression to its minimum sum-of-products. An
                                         <b> Earley Parser</b> is used to parse expressions
                                         given by the user. This project and the Earley
                                         Parser were written by <b>Andrew Miner</b>.{" "}
